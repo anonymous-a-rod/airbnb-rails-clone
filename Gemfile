@@ -20,6 +20,8 @@ gem "sprockets-rails"
 
 gem "stimulus-rails"
 
+gem "tailwindcss-rails", "~> 2.5"
+
 gem "turbo-rails"
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
@@ -31,4 +33,6 @@ end
 group :development do
   gem "web-console"
 end
+
+
 
